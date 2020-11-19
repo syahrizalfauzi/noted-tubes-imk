@@ -4,11 +4,11 @@ Project mobile app berbasis Flutter untuk tugas besar mata kuliah Interaksi Manu
 
 ## Made by
 
-Muhammad Syahrizal Fauzi\n
-Dhimas Rasyad Rahardianto\n
-Wahyu Liga Saputra\n
-Muhammad Riziq Yahya\n
-Muhammad Adib Bowo Laksono\n
+Muhammad Syahrizal Fauzi<br />
+Dhimas Rasyad Rahardianto<br />
+Wahyu Liga Saputra<br />
+Muhammad Riziq Yahya<br />
+Muhammad Adib Bowo Laksono<br />
 
 ## Info
 
