@@ -13,3 +13,4 @@ Muhammad Adib Bowo Laksono<br />
 ## Info
 
 Database menggunakan Firebase Firestore (spark plan)
+Otentikasi menggunakan Firebase Auth, login pakai akun Google
