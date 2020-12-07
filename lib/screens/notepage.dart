@@ -115,14 +115,15 @@ class _NotePageState extends State<NotePage> {
                         await documentRef.set({
                           "title": _titleController.text,
                           "content": _contentController.text,
-                          "lastEdit": "${currentNote.lastEdit.year}-${currentNote.lastEdit.month}-${currentNote.lastEdit.day}",
+                          "lastEdit": currentNote.lastEdit.toString(),
+                          // "lastEdit": "${currentNote.lastEdit.year}-${currentNote.lastEdit.month}-${currentNote.lastEdit.day}",
                         });
                       else {
                         var collectionReference = FirebaseFirestore.instance.collection('users').doc(_auth.currentUser.uid).collection('notes');
                         await collectionReference.add({
                           "title": _titleController.text,
                           "content": _contentController.text,
-                          "lastEdit": "${currentNote.lastEdit.year}-${currentNote.lastEdit.month}-${currentNote.lastEdit.day}",
+                          "lastEdit": currentNote.lastEdit.toString(),
                         });
                       }
                       Navigator.pop(context, true);
